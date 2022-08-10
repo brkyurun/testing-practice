@@ -1,0 +1,19 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:brkyurun/testing-practice.git",
+  "author": "berkay <berkayurun@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src -d dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "babel-jest": "^28.1.3",
+    "jest": "^28.1.3"
+  }
+}
